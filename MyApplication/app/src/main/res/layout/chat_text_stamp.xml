@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/msgContentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:autoLink="web|phone"
+        android:gravity="top"
+        android:lineSpacingExtra="1dp"
+        android:textColor="#ff353535"
+        android:textSize="16sp" />
+
+    <include
+        android:id="@+id/chat_item_stamp_layout"
+        layout="@layout/chat_item_stamp"></include>
+
+</merge>
